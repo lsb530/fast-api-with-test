@@ -9,6 +9,10 @@ readme = "README.md"
 python = "^3.9"
 fastapi = "^0.109.0"
 uvicorn = "^0.26.0"
+pydantic = "^2.5.3"
+websockets = "^12.0"
+graphene = "^3.3"
+starlette-graphene3 = "^0.6.0"
 
 
 [build-system]
