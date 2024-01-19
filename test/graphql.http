@@ -1,0 +1,18 @@
+### /graphql
+GET {{httpURL}}/graphql
+
+
+### /graphql query hello
+GRAPHQL {{httpURL}}/graphql
+
+query {
+    hello(name: "FastAPI")
+}
+
+
+### /graphql query goodbye
+GRAPHQL {{httpURL}}/graphql
+
+query {
+    goodbye(name: "GraphQL")
+}

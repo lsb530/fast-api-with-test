@@ -1,0 +1,9 @@
+### get /
+GET {{httpURL}}
+Accept: application/json
+
+> script/2xx.js
+
+### get /hello/{name}
+GET {{httpURL}}/hello/boki
+Accept: application/json

@@ -1,0 +1,34 @@
+### get Users
+GET {{httpURL}}/api/users
+Accept: application/json
+
+> script/list.js
+
+### get Users/:id
+GET {{httpURL}}/api/users/1
+Accept: application/json
+
+> script/single.js
+
+### post Users
+POST {{httpURL}}/api/users
+Content-Type: application/json
+
+{
+  "name": "PARK",
+  "age": 17
+}
+
+
+### patch Users
+PATCH {{httpURL}}/api/users/3
+Content-Type: application/json
+
+{
+  "name": "HONG",
+  "age": 25
+}
+
+#### delete Users
+DELETE {{httpURL}}/api/users/3
+Content-Type: application/json
